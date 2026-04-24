@@ -4,6 +4,7 @@ public record CarModelResponse(
         long id,
         String manufacturer,
         String model,
-        int year
+        int year,
+        int price
 ) {
 }
